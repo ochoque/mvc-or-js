@@ -1,6 +1,6 @@
 const express = require("express");
 const { Pool } = require("pg");
-///para postgres fffkkk
+///para postgres fffkkkggg
 const app = express();
 const port = 3000;
 
@@ -9,6 +9,13 @@ const pool = new Pool({
   host: "localhost",
   database: "mvc_db",
   password: "postgres",
+  port: "5432",
+
+  ///////**************************
+  user: "db_orlando_user",
+  host: "dpg-chhaul9mbg54o20ej530-a",
+  database: "db_orlando",
+  password: "5fFLpDt5i4K0XL2I7I3rQRVJbtQIE4Pg",
   port: "5432",
 });
 // Modelo
