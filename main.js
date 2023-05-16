@@ -5,11 +5,11 @@ const app = express();
 const port = 3000;
 
 const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  database: "mvc_db",
-  password: "postgres",
-  port: "5432",
+  //user: "postgres",
+  //host: "localhost",
+  //database: "mvc_db",
+  //password: "postgres",
+  //port: "5432",
 
   ///////**************************
   user: "db_orlando_user",
