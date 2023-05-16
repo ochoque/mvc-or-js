@@ -1,6 +1,6 @@
 const express = require("express");
 const { Pool } = require("pg");
-///para postgres 
+///para postgres fff
 const app = express();
 const port = 3000;
 
